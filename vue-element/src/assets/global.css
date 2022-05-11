@@ -1,0 +1,59 @@
+body,
+h2
+
+/* ,.el-container */
+,
+.el-main,
+.el-aside {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: normal;
+}
+
+.el-header {
+    cursor: pointer;
+    color: #409eff;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #ffffff;
+    border-radius: 3px;
+}
+
+@media screen and (max-width:970px) {
+    .el-header {
+        font-size: 15px !important;
+    }
+}
+
+
+@media screen and (max-width:970px) and (min-width:750px) {
+
+    .el-container,
+    .el-header {
+        width: 800px;
+    }
+}
+
+@media screen and (max-width:1140px) and (min-width:971px) {
+
+    .el-container,
+    .el-haeder {
+        width: 1050px;
+    }
+}
+
+@media screen and (min-width:1141px) {
+
+    .el-container,
+    .el-header {
+        width: 1140px;
+    }
+}
